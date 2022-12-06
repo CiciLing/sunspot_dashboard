@@ -21,6 +21,7 @@ real_time = {'EIT 171': 'https://soho.nascom.nasa.gov/data/realtime/eit_171/512/
 # build an app
 app = Dash(__name__)
 
+server = app.server
 # define the dashboard layout
 app.layout = html.Div([
         # put section title on first graph
